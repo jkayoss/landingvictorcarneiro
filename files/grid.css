@@ -212,5 +212,14 @@
     #frase .container img {
         display: none;
     }
+
+    main .container {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+
+    main .container .propostas {
+        display: none;
+    }
 }
 
